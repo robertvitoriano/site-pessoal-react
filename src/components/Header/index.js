@@ -1,6 +1,10 @@
 import React from "react";
 
-function Header() {
+function Header({history}) {
+
+    function handlePortifolio(){
+         history.push("/Portifolio");
+    }
   return (
     <div class="navbar">
       <ul>
@@ -10,7 +14,7 @@ function Header() {
           </a>
         </li>
         <li>
-          <a class="menu-link" href="projects.html">
+          <a class="menu-link" onClick={handlePortifolio}>
             Portifólio
           </a>
         </li>

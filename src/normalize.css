@@ -326,6 +326,7 @@ details {
  */
 
 summary {
+  
   display: list-item;
 }
 
@@ -346,4 +347,8 @@ template {
 
 [hidden] {
   display: none;
+}
+
+a{
+  cursor: pointer;
 }
