@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    --main-color:rgb(56, 56, 56);
+    background-color: var(--main-color);
+    color:rgb(149, 138, 138);
+
+}
+
+
+section{
+        width:50%;
+    margin:0 auto;
+
+}
+.navbar{
+    background-color: var(--main-color);
+    filter: brightness(130%);
+    display: flex;
+    justify-content: center;
+    height:50px;
+    align-items: center;
+ 
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar li{
+    list-style: none;
+    margin-right: 15px;
+    font-size: 20pt;
+    
+}
+.navbar #menu-divider{
+    border-right:  solid black 2px;
+    padding-right: 10px;
+
+}
+.navbar li a {
+text-decoration: none;
+color:var(--main-color);
+ filter: brightness(40%);
+    
+}
+.navbar li a:hover {
+ filter: brightness(80%);
+ transition: 1.0s;
+    
+}
+
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skills-list{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    text-align: left;
+    list-style: none;
+}
+
+.information{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:fit-content;
+}
+
+
+footer{
+    background-color: var(--main-color);
+    filter:brightness(80%);
+    position:relative;
+    bottom:0;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    height:50px;
+    align-items:center;
+
+}
