@@ -14,6 +14,9 @@ function Header({ history }) {
         <li class="menu-item">
           <Link className="header-link">Sobre</Link>
         </li>
+        <li class="menu-item ">
+          <Link className="header-link">Habilidades</Link>
+        </li>
         <li class="menu-item">
           <Link className="header-link">Projetos</Link>
         </li>
