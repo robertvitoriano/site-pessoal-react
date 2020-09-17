@@ -7,10 +7,10 @@ const Home = ({match,history}) => {
     <div>
       <Header match={match} history={history}></Header>
       <section class="home-container container">
-        <h1>Olá!<br/> me chamo Robert. Seja bem-vindo(a) ao meu portifólio.</h1>
+        <h1>Olá!<br /> Me chamo Robert.<br /> Seja bem-vindo(a) ao meu portifólio!</h1>
         <div class="information">
           <div class="photo-wrapper">
-            <img src={profilePic} style={{ height: "200px" }} alt="" />
+            <img src={profilePic} style={{ height: "400px" }} alt="" />
           </div>
           <div class="about">
             <p>
