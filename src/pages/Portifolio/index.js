@@ -4,7 +4,7 @@ import Footer from "./../../components/Footer";
 
 const Home = ({match,history}) => {
   return (
-    <div class="portifolio-container">
+    <div class="portifolio-container container">
       <Header match={match} history={history}></Header>
 
             <div class="projects">

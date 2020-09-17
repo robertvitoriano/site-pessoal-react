@@ -4,7 +4,7 @@ import Footer from './../../components/Footer'
 import profilePic from "./../../assets/img/profile-picture.jpg";
 const Home = ({match,history}) => {
   return (
-    <div class="home-container">
+    <div class="home-container container">
       <Header match={match} history={history}></Header>
       <section class="profile">
         <h1>Robert da Silva Vitoriano</h1>
