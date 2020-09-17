@@ -1,0 +1,30 @@
+.home-container  {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-wrapper{
+        margin-top:20px;
+        margin-bottom: 20px;
+
+}
+.about p{
+    margin-bottom:20px;
+    line-height: 30px;
+
+}
+.skills-list-container{
+    width:100%;
+    display: flex;
+}
+.skills{
+    list-style: circle;
+    margin: 0 auto;
+    
+
+}
+.skills li{
+    text-align: left;
+    margin-bottom:20px;
+}
