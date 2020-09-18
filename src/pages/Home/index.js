@@ -4,7 +4,7 @@ import Footer from "./../../components/Footer";
 import profilePic from "./../../assets/img/Mask Group 1.png";
 const Home = ({ match, history }) => {
   return (
-    <div>
+    <>
       <Header match={match} history={history}></Header>
       <section class="presentation-section container">
         <div className="welcome-container">
@@ -21,7 +21,7 @@ const Home = ({ match, history }) => {
           <div class="about">
             <p>
               Tenho 22 e atualmente estou Cursando o 4º Semestre de Análise e
-              Desenvolvimento de Sistemas na Fatec Sorocaba. 
+              Desenvolvimento de Sistemas na Fatec Sorocaba.
             </p>
 
             <p>
@@ -36,22 +36,7 @@ const Home = ({ match, history }) => {
           </div>
         </div>
       </section>
-      <section className="skills-section">
-        <h2>
-
-          Desenvolvi muitos interesses no ramo ao longo desses 4 semestres. Meus{" "}
-          <strong>estudos atuais</strong> se concentram em :
-        </h2>
-        <div class="skills-list-container">
-          <ul class="skills">
-            <li>Fullstack(Node.Js e React)</li>
-            <li>Desenvolvimento mobile(React Native)</li>
-            <li>Programação de Jogos(Unity)</li>
-          </ul>
-        </div>
-      </section>
-      <Footer></Footer>
-    </div>
+    </>
   );
 };
 

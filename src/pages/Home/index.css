@@ -15,9 +15,7 @@
 .welcome-container h1{
     font-size: 45px;
     font-family: 'Righteous';
-    max-width: 800px;
     display: block;
-    margin-left: 15px;
 }
 
 .photo-wrapper{
@@ -52,10 +50,8 @@
     background-color: white;
     text-align: center;
     height:800px;
-    width:100vw;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    justify-content: space-around;
 }
 
 
