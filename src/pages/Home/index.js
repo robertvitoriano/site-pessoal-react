@@ -4,11 +4,14 @@ import Footer from './../../components/Footer'
 import profilePic from "./../../assets/img/Mask Group 1.png";
 const Home = ({match,history}) => {
   return (
-    <div>
-      <Header match={match} history={history}></Header>
-      <section class="home-container container">
-        <h1>Olá!<br /> Me chamo Robert.<br /> Seja bem-vindo(a) ao meu portifólio!</h1>
-        <div class="information">
+    <>
+      <section class="presentation-section container">
+        <div className="welcome-container">
+          <h1>
+            Olá!
+            <br /> Me chamo Robert.
+            <br /> Seja bem-vindo(a) ao meu portifólio!
+          </h1>
           <div class="photo-wrapper">
             <img src={profilePic} style={{ height: "400px" }} alt="" />
           </div>
