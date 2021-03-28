@@ -5,7 +5,6 @@ import profilePic from "./../../assets/img/Mask Group 1.png";
 const Home = ({ match, history }) => {
   return (
     <>
-      <Header match={match} history={history}></Header>
       <section class="presentation-section container">
         <div className="welcome-container">
           <h1>
@@ -20,7 +19,7 @@ const Home = ({ match, history }) => {
         <div class="information">
           <div class="about">
             <p>
-              Tenho 22 e atualmente estou Cursando o 4º Semestre de Análise e
+              Tenho 23 e atualmente estou Cursando o 5º Semestre de Análise e
               Desenvolvimento de Sistemas na Fatec Sorocaba.
             </p>
 
