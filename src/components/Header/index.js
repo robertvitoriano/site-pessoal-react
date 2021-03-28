@@ -7,24 +7,24 @@ function Header({ history }) {
   }
   return (
     <div class="navbar">
-      <Link>
-        <img className="logo" src={logo}></img>
+      <Link to="/about">
+        <img className="logo" alt="portifolio logo" src={logo}></img>
       </Link>
       <ul className="menu-items">
         <li class="menu-item">
-          <Link className="header-link">Sobre</Link>
+          <Link className="header-link" to="/about">Sobre</Link>
         </li>
         <li class="menu-item ">
-          <Link className="header-link">Habilidades</Link>
+          <Link className="header-link" to="/skills">Habilidades</Link>
         </li>
         <li class="menu-item">
-          <Link className="header-link">Projetos</Link>
+          <Link className="header-link" to="/projects">Projetos</Link>
         </li>
         <li class="menu-item">
-          <Link className="header-link">Hobbies</Link>
+          <Link className="header-link" to="/hobbies">Hobbies</Link>
         </li>
-        <li class="menu-item ">
-          <Link className="header-link">Contato</Link>
+        <li class="menu-item">
+          <Link className="header-link" to="/contact">Contato</Link>
         </li>
       </ul>
       <div className="blog-link-container">

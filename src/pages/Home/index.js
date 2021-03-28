@@ -5,7 +5,6 @@ import profilePic from "./../../assets/img/Mask Group 1.png";
 const Home = ({ match, history }) => {
   return (
     <>
-      <Header match={match} history={history}></Header>
       <section class="presentation-section container">
         <div className="welcome-container">
           <h1>
