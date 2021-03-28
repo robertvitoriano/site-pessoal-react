@@ -28,7 +28,7 @@ function Header({ history }) {
         </li>
       </ul>
       <div className="blog-link-container">
-        <Link>Blog</Link>
+        <Link to="/blog">Blog</Link>
       </div>
     </div>
   );
