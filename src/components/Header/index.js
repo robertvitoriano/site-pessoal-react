@@ -8,7 +8,7 @@ function Header({ history }) {
   return (
     <div class="navbar">
       <Link to="/about">
-        <img className="logo"  alt="website logo"src={logo} ></img>
+        <img className="logo" alt="portifolio logo" src={logo}></img>
       </Link>
       <ul className="menu-items">
         <li class="menu-item">
@@ -23,8 +23,8 @@ function Header({ history }) {
         <li class="menu-item">
           <Link className="header-link" to="/hobbies">Hobbies</Link>
         </li>
-        <li class="menu-item ">
-          <Link className="header-link" to="contact">Contato</Link>
+        <li class="menu-item">
+          <Link className="header-link" to="/contact">Contato</Link>
         </li>
       </ul>
       <div className="blog-link-container">
