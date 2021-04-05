@@ -24,8 +24,9 @@ const Home = ({ match, history }) => {
             </p>
 
             <p>
-              Destas áreas citadas, a que mais me despertou paixão pelo estudo
-              foi o <strong>desenvolvimento fullstack</strong>. Ver todos os
+              Sempre me interesso pelo processo de desenvolvimento como um todo, 
+              portanto meus estudos são voltados a tudo que pode me trazer mais próximo do desenvolvimento
+               <strong> fullstack</strong>. Ver todos os
               conhecimentos de um determinado conjunto de tecnologias se
               encaixando para criar uma <strong>aplicação Web</strong> é uma
               experiência incrível. Tão incrível que todas as vezes que me
