@@ -8,7 +8,8 @@ export default function Routes() {
     <Router>
       <Header/>
       <Switch>
-        <Route path="/about" exact component={Home} />
+        <Route path="/about" component={Home} />
+        <Route path="/"  exact component={Home} />
       </Switch>
     </Router>)
 
