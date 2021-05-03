@@ -1,12 +1,12 @@
 .navbar {
   background-color: aliceblue;
   justify-content: center;
-  height: 80px;
+  height: 2em;
   display: flex;
   justify-content: space-between;
   position: relative;
   align-items: center;
-  font-size: 35px;
+  font-size: 2em;
   width:100vw;
 }
 .logo {
@@ -21,7 +21,7 @@
 }
 
 .menu-items li {
-  margin-right: 120px;
+  margin-right: 3em;
 }
 
 .header-link {
@@ -32,22 +32,102 @@
   color:black;
 
 }
-.blog-link-container {
+.blog-link-container-desktop {
   margin-right: 15px;
 }
-.blog-link-container a {
+.blog-link-container-desktop a {
 
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 20px;
-  padding-left: 10px;
+  padding: 0.4em;
+  padding-left: 1em;
   background-color:#494848;
 }
 
-.blog-link-container a:hover {
+.blog-link-container-desktop a:hover {
  color:#707070;
    background-color:white;
 
+}
+.blog-link-container-mobile {
+  display: none;
+}
+.hamburger-icon{
+  display:none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navbar {
+    background-color: aliceblue;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    font-size: 2em;
+    flex-direction: column;
+    padding: 30px;
+    top:0;
+    width: fit-content;
+    transition-property: left;
+    transition-duration: 1s;
+
+  }
+
+  .side-bar-show{
+    left: 15%;
+  }
+
+  .side-bar-hide{
+    left:100%;
+  }
+
+
+  
+  .navbar {
+    font-size: 36px;
+  }
+
+  .menu-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hamburger-icon{
+    display:block;
+  }
+
+  .logo {
+    height: 2em;
+    margin-left: 20px;
+  }
+
+  .blog-link-container-desktop {
+    display: none;
+    margin-right: 0;
+  }
+  .blog-link-container-mobile a {
+  
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.4em;
+    padding-left: 1em;
+    background-color:#494848;
+    margin-top: 10px;
+  }
+  
+  .blog-link-container a:hover {
+   color:#707070;
+     background-color:white;
+  
+  }
+
+  
 }
